@@ -8,6 +8,6 @@ void launchURL( BuildContext context, ScanModel scan) async {
   if( scan.tipo == 'http'){
   if (!await launch(url)) throw 'Could not launch $url';
   }else {
-    print('geo');
-  }
+    Navigator.pushNamed(context, 'mapa', arguments: scan);
+}
 }

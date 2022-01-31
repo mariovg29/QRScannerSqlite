@@ -3,6 +3,9 @@
    <application
         android:label="qrcode_sqlite"
         android:icon="@mipmap/ic_launcher">
+
+        <meta-data android:name="com.google.android.geo.API_KEY"
+               android:value="AIzaSyAi8gUC_AkMaXzXcJpvLrj1jG8TNDcbjiA"/>
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"

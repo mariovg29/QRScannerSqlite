@@ -25,7 +25,7 @@ class DBProvider {
     //path de donde almacenaremos la base de datos
     Directory documentsDirectory = await getApplicationDocumentsDirectory();
     final path = join( documentsDirectory.path, 'ScansDB.db');
-    print(path);
+    // print(path);
 
     //Crear Base de datos
 

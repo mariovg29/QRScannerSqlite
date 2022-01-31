@@ -8,7 +8,7 @@ class UIProvider extends ChangeNotifier{
 
 
   int get selectedMenuOpt {
-     return this._selectedMenuOpt;
+     return _selectedMenuOpt;
   }
   set selectedMenuOpt (int i){
     _selectedMenuOpt= i;
